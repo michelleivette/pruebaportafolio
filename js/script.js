@@ -30,7 +30,6 @@ $(document).ready(function(){
       navpanes: 0,
       toolbar: 0,
       statusbar: 0,
-      pagemode: "thumbs",
       view: "FitV"
   },
   forcePDFJS: true,
