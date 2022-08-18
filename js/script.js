@@ -33,6 +33,7 @@ $(document).ready(function(){
       pagemode: "thumbs",
       view: "FitV"
   },
+  forcePDFJS: true,
   PDFJS_URL: "vendor/pdfjs/web/viewer.html"
 };
 
