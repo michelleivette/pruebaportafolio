@@ -42,3 +42,17 @@ if(PDFObject.supportsPDFs){
 } else {
   console.log("Boo, inline PDFs are not supported by this browser");
 }
+
+var options = {
+  pdfOpenParams: {
+      navpanes: 0,
+      toolbar: 0,
+      statusbar: 0,
+      pagemode: "thumbs",
+      view: "FitV"
+  },
+  forcePDFJS: true,
+  PDFJS_URL: "vendor/pdfjs/web/viewer.html"
+};
+
+var myPDF = PDFObject.embed("../../../pdf/estudios/estudio5.pdf", "#pdf", options);
